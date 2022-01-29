@@ -12,7 +12,7 @@ console.log(내용[0].제목)
 for(let i =0 ; i<내용.length; i++){
         
 let context = `<div class="card col-md-3 col-sm-6 " style="width: 100%;">
-                <img src="/public/img/cont${i+1}.png" class="card-img-top"alt="이벤트1">
+                <img src="./public/img/cont${i+1}.png" class="card-img-top"alt="이벤트1">
                 <div class="card-body">
                     <h5 class="card-title">${내용[i].제목}</h5>
                     <p class="card-text">${내용[i].내용}</p>
